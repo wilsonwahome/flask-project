@@ -1,0 +1,76 @@
+/* Navbar container */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #FFDBAF;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  z-index: 1000;
+}
+
+/* Container for navigation links */
+.nav-container {
+  max-width: 1200px; /* Limiting width for content */
+  margin: 0 auto; /* Centering container horizontally */
+  display: flex;
+  justify-content: flex-end; /* Align items to the right */
+  align-items: center;
+  height: 100%;
+  padding: 0 20px; /* Padding for spacing */
+}
+
+/* Navigation links */
+.nav-links {
+  display: flex;
+  gap: 20px;
+  list-style-type: none; /* Remove default list styles */
+  margin: 0; /* Remove default margin */
+}
+
+/* Individual navigation link styling */
+.nav-links a {
+  color: #333; /* Dark text color */
+  text-decoration: none;
+  padding: 12px 20px; /* Padding for clickable area */
+  border-radius: 4px;
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+/* Hover effect for navigation links */
+.nav-links a:hover {
+  background-color: #F0F0F0; /* Light gray background on hover */
+  color: #555; /* Dark text color on hover */
+}
+
+/* Optional: Centering all navigation links */
+@media (max-width: 768px) {
+  .nav-container {
+    flex-direction: column; /* Stack items vertically on smaller screens */
+    align-items: flex-end; /* Align items to the right */
+    padding: 10px; /* Adjusted padding for smaller screens */
+  }
+
+  .nav-links {
+    gap: 10px; /* Reduced gap between links for smaller screens */
+  }
+
+  .nav-links a {
+    padding: 10px 15px; /* Adjusted padding for smaller screens */
+  }
+}
+
+.logout-btn {
+  background: none;
+  border: none;
+  color: black;
+  cursor: pointer;
+  font-size: 1em;
+  display: flex;
+  align-items: center;
+}
+
+.logout-btn:hover {
+  text-decoration: underline;
+}

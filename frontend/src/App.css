@@ -1,0 +1,15 @@
+/* App.css */
+
+/* Assuming you want to change the background color of the whole app */
+body {
+  background-color: #0b7979;
+}
+
+/* If your App component has a specific class or ID */
+/*
+.App {
+  background-color: orange;
+}
+*/
+
+/* Additional styles for other elements in your app can be added here */

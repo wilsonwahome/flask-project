@@ -1,0 +1,41 @@
+/* Carousel.css */
+
+/* Style the carousel container */
+.carousel-container {
+  width: 80%; /* Adjusted for responsiveness */
+  margin: 0 auto; /* Center horizontally */
+  position: relative; /* Ensure relative positioning */
+  
+}
+
+/* Style the carousel images */
+.carousel-image {
+  width: 100%; /* Ensure the image fills its container */
+  height: auto; /* Adjust height automatically */
+  max-height: 740px; /* Set a maximum height for consistency */
+  object-fit: contain; /* Ensure entire image is visible */
+  border-radius: 20px; /* Make the image rounded */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add box shadow for depth */
+}
+
+/* Style the caption */
+.carousel-caption {
+  text-align: center; /* Center-align the text */
+  color: #fff; /* White text color */
+  padding: 10px; /* Padding around the caption text */
+  position: absolute; /* Absolute positioning */
+  bottom: 0; /* Stick to the bottom of the image */
+  left: 0; /* Align left */
+  width: 100%; /* Full width */
+  border-bottom-left-radius: 20px; /* Optional: Rounded corners for the caption */
+  border-bottom-right-radius: 20px;
+}
+
+/* Style the dots navigation */
+.slick-dots {
+  bottom: 20px; /* Adjust the position of the dots */
+}
+
+.slick-dots li button:before {
+  color: #ffffff; /* Color of the dots */
+}
